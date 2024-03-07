@@ -3,8 +3,12 @@
     "allowUnreachableCode": false,
     "declaration": true,
     "esModuleInterop": true,
-    "lib": ["dom", "es2017"],
-    "module": "esnext",
+    "target": "ES2022",
+    "module": "es2020",
+    "lib": [
+      "es2019",
+      "dom"
+    ],
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
@@ -13,7 +17,6 @@
     "pretty": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
   },
   "files": ["src/index.ts"]
 }

@@ -60,6 +60,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     //  zendesk sdk
-    api( group: 'com.zendesk', name: 'support', version: '5.0.5')
+    api( group: 'com.zendesk', name: 'support', version: '5.2.0')
 
 }
